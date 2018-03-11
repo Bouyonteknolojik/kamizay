@@ -1,6 +1,6 @@
 <?php
 
-	class Template extends MY_Controller
+	class Template extends KZ_Controller
 	{
 
 		function __construct()
@@ -10,6 +10,10 @@
 
 		public function index()
 		{
+			$this->load->view( 'common/header' );
+			$this->load->view( 'common/navigation' );
 			$this->load->view( 'template' );
+			$this->load->view( 'common/footer' );
+
 		}
 	}

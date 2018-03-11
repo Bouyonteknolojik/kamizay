@@ -49,7 +49,7 @@
 	/**
 	 * Class MY_Controller
 	 */
-	class MY_Controller extends CI_Controller
+	class KZ_Controller extends CI_Controller
 	{
 
 		/**
